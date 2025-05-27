@@ -1,0 +1,7 @@
+.saludo{
+    color: #4b2e2e;
+    font-size: 40px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
