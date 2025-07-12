@@ -1,0 +1,33 @@
+.btn-halcom {
+  background-color: #0d6efd;      
+  color: #ffffff;
+  border: none;
+  padding: 0.2rem 0.7rem;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  margin: 0.2rem;
+}
+
+.btn-halcom:hover {
+  background-color: #0d6efd;      /* Más oscuro al hacer hover */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);   /* Le da un efecto de “levantarse” */
+}
+
+.botones-contador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.boton-comprar-contenedor {
+  display: flex;
+  justify-content: center;
+}
